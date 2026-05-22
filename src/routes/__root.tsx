@@ -75,10 +75,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Abdusalom's Fast Food — Premium Taste, Fast Delivery" },
       { name: "description", content: "Abdusalom's Fast Food — premium burgers, pizza & lavash. Order online via Telegram, fast delivery, glowing dark UI." },
       { name: "author", content: "Abdusalom's" },
-      { property: "og:title", content: "Abdusalom's Fast Food" },
-      { property: "og:description", content: "Premium Taste, Fast Delivery." },
+      { property: "og:title", content: "Abdusalom's Fast Food — Premium Taste, Fast Delivery" },
+      { property: "og:description", content: "Abdusalom's Fast Food — premium burgers, pizza & lavash. Order online via Telegram, fast delivery, glowing dark UI." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Abdusalom's Fast Food — Premium Taste, Fast Delivery" },
+      { name: "twitter:description", content: "Abdusalom's Fast Food — premium burgers, pizza & lavash. Order online via Telegram, fast delivery, glowing dark UI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3e97bb13-8036-4661-9003-ee1d52797d1c/id-preview-9dcda4e3--bf94b254-1307-4f59-8938-716c36c97f5f.lovable.app-1779336353737.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3e97bb13-8036-4661-9003-ee1d52797d1c/id-preview-9dcda4e3--bf94b254-1307-4f59-8938-716c36c97f5f.lovable.app-1779336353737.png" },
     ],
     links: [
       {
