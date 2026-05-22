@@ -437,7 +437,7 @@ function CartDrawer({
       />
       <aside
         className={`fixed right-0 top-0 z-50 flex h-full w-full max-w-md flex-col bg-[#0D0D0C] border-l border-white/10 shadow-2xl transition-transform duration-300 ${
-          open ? "translate-x-0" : "translate-x-full"
+          open ? "translate-x-0" : "translate-x-full pointer-events-none"
         }`}
       >
         <div className="flex items-center justify-between border-b border-white/10 p-5">
